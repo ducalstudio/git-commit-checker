@@ -44,7 +44,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email minhsang2603@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email contact@ducalstudio.com instead of using the issue tracker.
 
 ## Credits
 
