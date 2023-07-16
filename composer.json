@@ -1,0 +1,48 @@
+{
+  "name": "ducal/git-commit-checker",
+  "description": "Check coding standard & code syntax with Git pre-commit hook.",
+  "type": "package",
+  "license": "MIT",
+  "keywords": [
+    "ducal",
+    "ducal cms",
+    "ducal platform",
+    "ducal git commit checker"
+  ],
+  "homepage": "https://ducalstudio.com",
+  "authors": [
+    {
+      "name": "Sang Nguyen",
+      "email": "sangnguyenplus@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ducal\\GitCommitChecker\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ducal\\GitCommitChecker\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^8.0|^8.1|^8.2",
+    "laravel/framework": "^9.32|^10.0",
+    "laravel/pint": "^1.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0|^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ducal\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable"
+}
